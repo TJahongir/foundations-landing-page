@@ -1,3 +1,4 @@
+/* General */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,6 +18,11 @@ button {
     outline: none;
     border: none;
 }
+
+.top-bottom-padding {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
 /* main section */
 main {
     background-color: #1f2937;
@@ -26,7 +32,7 @@ main {
 
 main h1 {
     color: #f9faf8;
-    font-size: 48px;
+    font-size: 3rem;
     font-weight: 700;
 }
 
@@ -62,7 +68,7 @@ nav ul li {
 
 .main-logo {
     font-weight: 700;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #f9faf8
 }
 
@@ -102,10 +108,31 @@ section {
     background-color: white;
 }
 
+/* Quote */
+.quote {
+    background-color: #e5e7eb;
+    padding-left: 20rem;
+    padding-right: 20rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 2.25rem;
+    font-family: #1f2937;
+    font-style: italic;
+    font-weight: 100;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 700;
+    font-size: 1.2rem;
+    padding-right: 5rem;
+}
+
 /* CTA */
 .cta {
-    padding-top: 5rem;
-    padding-bottom: 5rem;
     display: flex;
     justify-content: center;
     align-items: center;
