@@ -15,6 +15,7 @@ button {
     font-weight: 700;
     border-radius: 0.8rem;
     outline: none;
+    border: none;
 }
 /* main section */
 main {
@@ -98,7 +99,35 @@ nav ul li {
 
 
 section {
-    background-color: aqua;
+    background-color: white;
+}
+
+/* CTA */
+.cta {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cta-container {
+    background-color: #3882f6;
+    width: 100%;
+    border-radius: 1rem;
+    padding: 3rem 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cta-container button {
+    border: 1px solid #f9faf8;
+}
+
+.action h3,
+.action p{
+    color: white;
 }
 
 /* Footer */
