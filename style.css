@@ -101,6 +101,17 @@ section {
     background-color: aqua;
 }
 
+/* Footer */
 footer {
     background-color: #1f2937;
+    color: #f9faf8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+
+}
+
+footer a {
+    color: #f9faf8;
 }
