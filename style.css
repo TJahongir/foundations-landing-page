@@ -108,6 +108,40 @@ section {
     background-color: white;
 }
 
+/* Random Facts */
+.random_info {
+
+}
+
+.random_info h2 {
+    color: #1f2937;
+    font-weight: 600;
+    font-size: 2.25rem;
+    text-align: center;
+    padding: 2rem 0; 
+}
+
+.random_items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+}
+
+.random_item img {
+    border-radius: 12px;
+    border: 3px solid #3882f6;
+}
+
+.random_item {
+    text-align: center;
+}
+
+.random_item p {
+    padding: 1rem 0;
+}
+
 /* Quote */
 .quote {
     background-color: #e5e7eb;
